@@ -10,7 +10,8 @@
 
 The patch provides a goblin, which has unique mechanics during fighting.
 
-This is a modular modification (a.k.a. patch or add-on) that can be installed and uninstalled at any time and is virtually compatible with any modification.
+This is a modular modification (a.k.a. patch or add-on) which is compatible with original Gothic II: NotR. The rest of versions are not tested.
+
 It supports <kbd>Gothic II: NotR</kbd> only.
 
 <sup>Generated from [szapp/patch-template](https://github.com/szapp/patch-template).</sup>

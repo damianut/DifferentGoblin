@@ -1,0 +1,1 @@
+const int PATCH_DG_ID_GOBBO_DIFFERENT = 65;
