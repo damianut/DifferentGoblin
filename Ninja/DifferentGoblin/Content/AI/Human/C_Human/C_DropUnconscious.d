@@ -12,7 +12,7 @@
 func int C_DropUnconscious()
 {
     // Is a different gobbo?
-    if (ID_GOBBO_DIFFERENT == self.aivar[AIV_MM_REAL_ID])
+    if (PATCH_DG_ID_GOBBO_DIFFERENT == self.aivar[AIV_MM_REAL_ID])
     {
         Patch_DG_HandleHP(self);
     };

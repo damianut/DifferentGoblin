@@ -34,12 +34,16 @@ func void Patch_DG_Action_1(var C_NPC npc)
 func void Patch_DG_Action_2(var C_NPC npc)
 {
     // Play an visual effect
-    AI_PlayFX(npc, npc, "SPELLFX_FIRESTORM");
+    Npc_ClearAIQueue(npc);
+    AI_StandUpQuick(npc);
+    AI_PlayFX(npc, hero, "SPELLFX_FIRESTORM");
 };
 func void Patch_DG_Action_3(var C_NPC npc)
 {
     // Change a weapon
-    AI_RemoveWeapon(npc);
+    Npc_ClearAIQueue(npc);
+    AI_StandUpQuick(npc);
+    AI_DropItem(npc, ItMw_1h_Bau_Mace);
     
     // Create a better weapon
     if (0 >= Npc_HasItems(npc, ItMw_1h_MISC_Sword))

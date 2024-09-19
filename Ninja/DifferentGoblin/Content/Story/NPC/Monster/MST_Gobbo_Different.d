@@ -25,6 +25,7 @@ instance Patch_DG_Gobbo_Different(Mst_Default_Gobbo_Black)
     name = "Different Goblin";
 
 	// -------- attributes --------
+    attribute[ATR_STRENGTH]			= 100;
     attribute[ATR_HITPOINTS_MAX]	= 400;
 	attribute[ATR_HITPOINTS]		= 400;
 
